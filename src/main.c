@@ -6,8 +6,8 @@
 #include <SDL2/SDL_video.h>
 #include <stdio.h>
 
-const int WIDTH = 1920;
-const int HEIGHT = 1080;
+#define WIDTH 1920
+#define HEIGHT 1080
 #define vw * (WIDTH / 100.0)
 #define vh * (HEIGHT / 100.0)
 
