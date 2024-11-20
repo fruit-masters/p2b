@@ -38,7 +38,7 @@ check if connection is still valid, if not, authenticate again with peer.
 
 all messages are encrypted with the `session_key` using AES.
 
-### connection flow
+### message flow
 
 1. check if connection valid  
 if, valid send message  
