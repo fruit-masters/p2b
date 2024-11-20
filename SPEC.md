@@ -6,7 +6,7 @@ stores `username`, `ip`, `port`, `rsa_public_key`, `timestamp` for every user re
 
 register with unique `username` and `rsa_public_key` once.
 
-update of `ip`, `port` and `timestamp` only possible if signed with users `private_key`.
+update of `ip`, `port` and `timestamp` only possible if signed with users `rsa_private_key`.
 
 ## "p2b" - message client
 
