@@ -18,7 +18,7 @@ SRC = $(wildcard src/*.c)
 OBJ = $(SRC:src/%.c=src/%.o)
 
 # Executable name
-EXEC = tanhell
+EXEC = p2b
 
 # Default target
 all: $(EXEC)
@@ -27,7 +27,7 @@ all: $(EXEC)
 $(EXEC): $(OBJ)
 	@echo ""
 	@echo "- Linking"
-	$(CC) $(OBJ) -o $(EXEC) $(shell sdl2-config --libs) $(shell pkg-config --cflags --libs x11) -lm
+	$(CC) $(OBJ) -o $(EXEC) $(shell sdl2-config --libs) -lm
 	@echo ""
 	@echo "- Cleanup"
 	rm -f $(OBJ)
